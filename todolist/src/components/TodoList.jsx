@@ -12,6 +12,10 @@ export default function TodoList() {
 
   const submitHandler = (e) => {
     e.preventDefault();
+    if (title.trim() === "" || desc.trim() === "") {
+      alert("Please fill out both the title and description!");
+      return;
+    }
     setMainTask([...mainTask, { title, desc, status: "pending" }]);
     setTitle("");
     setDesc("");
@@ -85,11 +89,11 @@ export default function TodoList() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-red-200 via-red-300 p-4 flex items-center justify-center">
+    <div className="min-h-screen bg-[url(/bg.jpg)] bg-cover bg-center  p-4 flex items-center justify-center">
       <div className="w-full max-w-2xl">
         <div className="text-center mb-8">
           <h1 className="text-2xl md:text-3xl font-bold bg-red-400 p-6 rounded-xl text-white">
-            Todo List
+            TODO LIST
           </h1>
         </div>
         <div className="bg-white rounded-3xl shadow-2xl p-6 md:p-8">
