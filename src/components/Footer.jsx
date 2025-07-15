@@ -40,7 +40,7 @@ export default function Footer() {
             </span>
           </h2>
           <p className="text-sm text-gray-400 mb-2">
-            © 2025 Raja Dev. All rights reserved.
+            © 2025 Raja Shrivastava. All rights reserved.
           </p>
           <div className="flex gap-4 text-lg mt-4 text-gray-300">
             <FaTwitter className="hover:text-green-400 transition" />
@@ -55,8 +55,10 @@ export default function Footer() {
         <div>
           <h3 className="text-lg font-semibold mb-4">Get in Touch</h3>
           <p className="text-sm text-gray-300">Bengaluru, Karnataka, India</p>
-          <p className="mt-3 text-sm text-gray-300">info@email.com</p>
-          <p className="text-sm text-gray-300">00 (123) 456 78 90</p>
+          <p className="mt-3 text-sm text-gray-300">
+            rajashrivastava983@gmail.com
+          </p>
+          <p className="text-sm text-gray-300">+91 9340122466</p>
         </div>
 
         {/* Learn More */}

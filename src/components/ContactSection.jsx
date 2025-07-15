@@ -83,7 +83,7 @@ export default function ContactSection() {
             </li>
             <li className="flex items-center gap-2">
               <Phone className="text-green-400" size={18} />
-              +91 7354815192
+              +91 9340122466
             </li>
             <li className="flex items-center gap-2">
               <MapPin className="text-green-400" size={18} />
@@ -101,7 +101,7 @@ export default function ContactSection() {
               <FaGithub className="hover:text-green-400 transition" />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/raja-shrivastava-299008285?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
               target="_blank"
               rel="noopener noreferrer"
             >

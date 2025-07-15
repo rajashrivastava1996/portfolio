@@ -11,8 +11,8 @@ const projects = [
     description:
       "A dynamic web app that converts currencies in real-time using live exchange rates, built with React and integrated with an API.",
     techs: ["React", "API Integration", "CSS"],
-    repo: "#",
-    demo: "#",
+    repo: "https://currency-converter-oamrknbkh-rajashrivastava1996s-projects.vercel.app/",
+    demo: "https://currency-converter-oamrknbkh-rajashrivastava1996s-projects.vercel.app/",
     icon: <Laptop size={18} />,
   },
   {
@@ -21,8 +21,8 @@ const projects = [
     description:
       "An interactive platform for online learning featuring quizzes, progress tracking, and video integration.",
     techs: ["React", "Node.js", "MongoDB"],
-    repo: "#",
-    demo: "#",
+    repo: "https://mfdshala.kcp.com.in/",
+    demo: "https://mfdshala.kcp.com.in/",
     icon: <Book size={18} />,
   },
   {
@@ -31,8 +31,8 @@ const projects = [
     description:
       "A simple and intuitive task management app to organize daily tasks with features like reminders and priorities.",
     techs: ["React", "LocalStorage", "CSS"],
-    repo: "#",
-    demo: "#",
+    repo: "https://todoapp-ebbc5nkxm-rajashrivastava1996s-projects.vercel.app/",
+    demo: "https://todoapp-ebbc5nkxm-rajashrivastava1996s-projects.vercel.app/",
     icon: <CheckSquare size={18} />,
   },
 ];
